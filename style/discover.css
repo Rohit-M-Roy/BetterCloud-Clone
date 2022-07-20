@@ -1,0 +1,85 @@
+
+        *{
+            font-family: "Proxima Nova", proxima-nova, sans-serif;
+        }
+        .abhi_container{
+            width: 55%;
+            margin: auto;
+            display: flex;
+            justify-content: space-around;
+            margin-top: 100px;
+            /* border: 1px solid black; */
+        }
+        #containerLeft{
+            width: 33%;
+        }
+        #containerLeft h1{
+            font-size: 56px;
+            font-weight: 700;
+        }
+        #containerLeft p{
+            color: #5d7689;
+            font-size: 18px;
+            font-weight: 500;
+            line-height: 30px;
+        }
+        #containerRight #Video{
+            width:665px;
+            height:383px;
+            border-radius: 10px;
+        }
+        .content{
+            width: 33%;
+        }
+        .content h1{
+            line-height: 50px;
+            font-size: 40px;
+            font-weight: 700;
+            color: #183b56;
+        }
+        .content p{
+            font-size: 20px;
+            font-weight: 500;
+            line-height: 35px;
+            color: #183b56;
+        }
+        .imagecon{
+            width: 48%;
+        }
+        .imagecon img{
+            width: 119%;
+        }
+        #comments{
+            display: flex;
+            justify-content: space-between;
+        }
+        #comments>div:first-child img{
+            width: 30px;
+        }
+        #comments>div:last-child{
+            width: 90%;
+        }
+        #comments>div:last-child p{
+            font-weight: 600;
+            font-size: 16px;
+            line-height: 26px;
+            color:rgba(24, 59, 86, 0.8);
+        }
+        #comments>div:last-child h5{
+            font-weight: 700;
+            font-size: 11px;
+            line-height: 17px;
+            color: rgba(0, 0, 0, 0.7);
+            margin: 0px;
+        }
+        #comments>div:last-child h6{
+            font-weight: 400;
+            font-size: 11px;
+            line-height: 17px;
+            color: rgba(0, 0, 0, 0.7);
+            margin: 0px 0px 10px 0px;
+        }
+        #comments>div:last-child img{
+            width: 80px;
+            height: 26px;
+        }
