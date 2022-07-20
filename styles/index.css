@@ -1,0 +1,278 @@
+*{
+    margin:0px;
+    padding:0px;
+    font-family: sans-serif;
+}
+
+/* Mid Body Part 1 */
+
+#midBodyPart1
+{
+    /* border:1px solid red; */
+    margin: auto;
+    width: 80%;
+}
+
+#midBodyPart1>div:first-child
+{
+    text-align: center;
+    border:1px solid transparent;
+    margin: auto;
+    width:800px;
+}
+#midBodyPart1>div:first-child>h2
+{
+    padding: 0px 20px 0px 20px;
+    line-height: 50px;
+    font-size: 35px;
+    color: #183b56;
+
+}
+
+#midBodyPart1>div:first-child>h2+p
+{
+    font-size: 18px;
+    color: #5a7184;
+    line-height: 30px;
+}
+
+#midBodyPart1Btn
+{
+    /* border:1px solid red; */
+    margin: auto;
+    width: 90%;
+}
+
+.midBodyPart1Details
+{
+    border:1px solid transparent;
+    margin: auto;
+    width:95%;
+    height:500px;
+    display: grid;
+    grid-template-columns: 60% 40%;
+    gap:20px;
+}
+
+.midBodyPart1Details>div>img
+{
+    width:100%
+}
+
+.midBodyPart1Details>div:nth-child(2)
+{
+    padding-right:30px;
+    padding-top: 40px;
+}
+
+.midBodyPart1Details>div:nth-child(2)>h2
+{
+    font-size: 30px;
+    color: #183b56;
+}
+
+.midBodyPart1Details>div:nth-child(2)>p
+{
+    color: #183b56;
+    font-size: 18px;
+    margin-top: 17px;
+    line-height: 30px;
+}
+
+.pointsDiv
+{
+    display: flex;
+    align-items: center;
+    margin-bottom: 18px;
+    margin-top: 20px;
+}
+
+.pointsDiv>img
+{
+    width:24px;
+    margin-right: 18px;
+
+}
+
+.midBodyPart1Details>div:nth-child(2)>button
+{
+    padding: 12px 24px;
+    border:1px solid #94a4be;
+    border-radius: 50px;
+    background-color: #2272FF;
+    color: white;
+    font-size: 12px;
+    font-weight: bold;
+}
+
+#midBodyPart1Btn
+{
+    border: 1px solid transparent;
+    display: flex;
+    margin: auto;
+    width:80%;
+    justify-content: space-around;
+    gap:10px;
+}
+
+#midBodyPart1Btn>button
+{
+    border:1px solid #c0cad2;
+    border-radius: 30px;
+    padding: 8px 10px;
+    font-size: 13px;
+    font-weight: bold;
+    color: #183b56;
+    background-color: white;
+}
+
+.midBodyPart1Btns
+{
+    display: flex;
+    align-items: center;
+    letter-spacing: 1px;
+}
+
+.midBodyPart1Btns>img
+{
+    width:30px;
+    margin-right: 4px;
+}
+
+
+/* News Feed */
+
+#newsFeed
+{
+    margin:auto;
+    width:77%;
+}
+
+#newsFeedHead
+{
+  display: flex;
+  justify-content: space-between;
+  /* border:1px solid red; */
+  padding:5px 10px;
+  height:60px;
+}
+
+#newsFeedHead>h2
+{
+  font-size:40px;
+}
+
+#newsFeedHead>button
+{
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+  border:1px solid transparent;
+  height:50%;
+  padding: 15px 25px;
+  border-radius:30px;
+  font-size:11px;
+  font-weight:bold;
+  color:white;
+  background-color:#2272FF;
+  display: flex;
+  align-items: center;
+}
+
+#neewsFeedContainer
+{
+    display: flex;
+    gap:30px
+}
+
+.news>img
+{
+  width:100%;
+}
+
+.news>h3
+{
+    color:#2272FF;
+    font-family: sans-serif;
+    padding-top: 10px;
+    margin: 0px 0px 9px;
+}
+.news>h3+p
+{
+    font-size: 12.5px;
+    font-weight: lighter;
+    color:#5d7689;
+}
+
+.authorTime
+{
+    display: flex;
+    justify-content: space-between;
+    font-size: 13px;
+    font-weight: bold;
+    margin-top:10px
+}
+
+.authorTime>p:nth-child(2)
+{
+    color:#2272FF;
+}
+
+#midBodyPart3
+{
+    
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    gap:30px;
+    /* border:1px solid red; */
+    width:73%;
+    padding: 50px 30px; 
+    margin: auto;
+    margin-bottom:100px;
+    border-radius: 30px;
+    background-color: #eff7ff;
+}
+
+
+#midBodyPart3>div:first-child
+{
+    /* border:1px solid red; */
+    margin-left: 30px;
+}
+
+#midBodyPart3>div:first-child>h2
+{
+    font-size: 34px;
+    color:#183b56;
+    font-size: 34px;;
+}
+
+#midBodyPart3Body
+{
+    /* border: 1px solid red; */
+    font-size: 16px;
+    padding-top: 30px;
+    color:#00000099;
+    line-height: 25px;
+}
+
+#midBodyPart3>div:nth-child(2)>img
+{
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+    border-radius: 10px;
+    margin-left: 20px;
+}
+
+#midBodyPart3Btn
+{
+    display: flex;
+    align-items: center;
+    padding: 12px 24px;
+    background-color: transparent;
+    border: 0px;
+    font-weight: bold;
+    color: #2272FF;
+}
+
+#midBodyPart3Btn+div>img
+{
+    height: 122px;
+}
