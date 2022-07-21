@@ -39,3 +39,18 @@ let office=()=>{
     },100)
 }
 office()
+
+
+let myClick=()=>{
+    window.location.href="about.html"
+}
+
+document.querySelector("#k_btn").addEventListener("click",myClick)
+
+
+
+let myLastClick=()=>{
+    window.location.href="about.html"
+}
+
+document.querySelector("#k_last_btn").addEventListener("click",myLastClick)
