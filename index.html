@@ -7,9 +7,49 @@
     <title>Document</title>
     <link rel="stylesheet" href="./styles/index.css">
     <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+    <link rel="stylesheet" href="./styles/footer.css">
+    <link rel="stylesheet" href="./styles/navbar.css">
 </head>
 <body>
-
+    <!-- navbar -->
+    <nav>
+        <div id="navFirstHalf">
+            <div id="navbar_logo">
+                <img src="./images/bettercloud-white-logo.png" alt="logo">
+                <img src="./images/bettercloud-logo.png" alt="black_logo">
+            </div>
+            <div id="menu_wrapper">
+                <ul>
+                    <li>
+                        <div class="bottom_highlight">
+                            PRODUCTS
+                        </div>
+                        <div class="menu">
+                            <div class="col">
+                                <h3>Products</h3>
+                            </div>
+                            <div class="col">
+                                <h3>Platform</h3>
+                            </div>
+                        </div>
+                    </li>
+                    <li>SOLUTION</li>
+                    <li>CUSTOMER</li>
+                    <li>RESOURCES</li>
+                    <li>COMPANY</li>
+                </ul>
+            </div>
+        </div>
+        <div id="navbar_second_half">
+            <span id="person_icon" class="material-symbols-outlined">
+                person
+                </span>
+            <span id="search_icon" class="material-symbols-outlined">
+                    search
+                    </span>
+            <button id="request_a_demo_button">REQUEST A DEMO</button>
+        </div>
+    </nav>
     <!-- MidBody Part 1 -->
     <div id="midBodyPart1">
         <div>
@@ -76,7 +116,6 @@
         </div>
         <div id="neewsFeedContainer"></div>
     </div>
-    
 </body>
 </html>
-<script src="./scripts/index.js"></script>
+<script src="./scripts/index.js" type="module"></script>
