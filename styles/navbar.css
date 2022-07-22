@@ -1,0 +1,163 @@
+
+nav
+{
+    position:fixed;
+    margin: auto;
+    width:97%;
+    top:0;
+    border:1px solid transparent;
+    height:92px;
+    display: flex;
+    justify-content: space-between;
+    padding-left: 20px;
+    padding-right: 20px;
+    align-items: center;
+    background-color: #2272ff;
+}
+
+nav:hover
+{
+    background-color: white;
+    transition: all 0.5s ease;
+}
+
+nav:hover .bottom_highlight
+{
+    color: black;
+}
+
+nav:hover #search_icon
+{
+    color:black;
+}
+
+nav:hover #request_a_demo_button 
+{
+    border:1px solid #2272ff;
+    background-color: white;
+    color: #2272ff;
+}
+
+nav:hover #person_icon
+{
+    color: black;
+}
+
+nav:hover #navbar_logo>img:nth-child(2)
+{
+    opacity:1;
+}
+
+body
+{
+    margin-top: 94px;
+}
+
+#navFirstHalf
+{
+    /* border:1px solid red; */
+    display: flex;
+    height:100%;   
+    gap:30px;
+}
+
+#person_icon
+{
+    width:24px;
+    margin-right: 10px;
+    color:white;
+    font-size: 25px;
+}
+
+#search_icon
+{
+    margin-right: 10px;
+    color:white;
+    font-weight:300;
+    
+}
+
+/* megaMENU */
+
+#menu_wrapper
+{
+    border: 1px solid;
+}
+
+ul
+{
+    list-style: none;
+    display: flex;
+    align-items: center;
+    gap:20px;
+}
+
+.bottom_highlight
+{
+    /* border: 1px solid red; */
+    padding-top: 38px;
+    padding-bottom: 34px;
+    font-size: 12px;
+    font-weight: bold;
+    letter-spacing: 1px;
+    color: white;
+    border-bottom: 4px solid transparent;
+}
+
+.menu
+{
+    border: 1px solid green;
+    position: absolute;
+    width: 82.7%;
+    left: 0;
+    padding:40px 130px;
+    display: flex;
+    justify-content: space-between;
+    background-color: white;
+}
+
+.col
+{
+    border:1px solid green;
+}
+
+.bottom_highlight
+{
+    border-bottom: 4px solid #2272ff;
+}
+
+
+#navbar_logo
+{
+    position:relative;
+    border:1px solid transparent;
+}
+
+#navbar_logo>img:first-child
+{
+    /* border: 1px solid red; */
+    height: 38px;
+    margin: 18px 34px 26px 0px;
+}
+
+#navbar_logo>img:nth-child(2)
+{
+    /* border: 1px solid red; */
+    position: absolute;
+    left:0;
+    opacity: 0;
+    height: 38px;
+    margin: 18px 34px 26px 0px;
+}
+
+#request_a_demo_button
+{
+    font-size: 12px;
+    font-weight: bold;
+    padding: 15px 22px;
+    border-radius: 30px;
+    border:1px solid white;
+    background-color: #2272ff;
+    color: white;
+
+}
