@@ -1,0 +1,151 @@
+*{
+    margin: 0px;
+    padding: 0px;
+
+}
+#stream{
+    height: 20px;
+    width: 350px;
+    /* border: 1px solid; */
+}
+.f1{
+    height: 500px;
+    width: 100%;
+    /* border: 1px solid; */
+    
+    display: flex;
+    margin-top: 80px;
+    margin-bottom: 80px;
+}
+
+#img2{
+    margin-left: 20%;
+    margin-right: -22%;
+}
+.f11{
+    height: 500px;
+    width: 1550px;
+    /* border: 1px solid;  */
+    border-radius: 5px;
+    box-shadow: rgb(154, 7, 218);
+}
+.f12{
+    height: 450px;
+    width: 40%;
+    /* border: 1px solid;  */
+}
+.f11 img{
+    height: 500px;
+    width: 100%;
+}
+.f11 h1{
+    font-weight: bold;
+}
+#f1{
+    /* text-align: center; */
+    /* margin: 20px 30px 20px 100px; */
+    margin-left: 70px;
+    /* font-size: 18px; */
+    margin-top: 50px;
+    font-weight: 20px;
+    color: rgb(39, 39, 39);
+
+}
+button
+{
+    margin-left: 80px;
+    padding: 10px;
+    border-radius: 18px;
+    background-color: rgb(27,219,182);
+    border: none;
+    color: aliceblue;
+    font-weight: bold;
+}
+#google{
+    height: 40px;
+    width: 400px;
+    /* border: 1px solid; */
+    margin-left: 80px;
+    margin-top: 50px;
+    font-size: larger;
+    font-weight: bolder;
+}
+#google-1{
+    height: 40px;
+    width: 400px;
+    /* border: 1px solid; */
+    margin-left: 80px;
+    margin-top: -10px;
+    color: rgb(24,59,86);
+}
+#f1 h1{
+    display: inline;
+    line-height: 40px;
+}
+
+    ul {
+        list-style: none; /* Remove default bullets */
+        margin-left: -1px;
+        line-height: 40px;
+      }
+      ul img{
+        line-height: 40px;
+        height: 15px;
+        width: auto;
+      }
+
+      #enter{
+        line-height: 40px;
+        height: 20px;
+        width: 350px;
+        /* border: 1px solid; */
+        display: inline-block;
+        margin-top: 20px;
+      }
+      
+
+      /* last div */
+      .main_n{
+height: 400px;
+width: 100%;
+/* border: 1px solid; */
+display: flex;
+      }
+      .l{
+        height: 400px;
+width: 30%;
+/* border: 1px solid; */
+      }
+      .m{
+        line-height: 10px;
+        color: rgb(39, 39, 39);
+        margin-top: 80px;
+        height: 400px;
+width: 40%;
+/* border: 1px solid; */
+text-align: center;
+      }
+      .r{
+        height: 400px;
+width: 30%;
+/* border: 1px solid; */
+      }
+      .main_n img{
+width: 100%;
+      }
+      .m h1{
+        line-height: 100px;
+      }
+      .m p{
+        line-height: 20px;
+      }
+      #btn-l{
+        margin-top: 10px;
+        margin-left: 40px;
+      }
+     
+      .f11{
+        box-shadow: 1px 1px 1px 1px rgba(227, 227, 227, 0.874);
+      }
+
+
