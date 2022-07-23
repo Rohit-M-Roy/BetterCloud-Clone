@@ -1,3 +1,14 @@
+
+import navbar from '../components/navbar.js'
+
+document.querySelector('nav').innerHTML = navbar();
+
+
+// import footer from "../components/footer.js"
+
+// document.querySelector("#k_foot").innerHTML=footer()
+
+
 let year=()=>{
     let count=0;
     let id=setInterval(()=>{
@@ -54,3 +65,6 @@ let myLastClick=()=>{
 }
 
 document.querySelector("#k_last_btn").addEventListener("click",myLastClick)
+
+
+

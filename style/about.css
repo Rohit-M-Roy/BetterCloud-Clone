@@ -1,6 +1,6 @@
-*{
+/* *{
     border: 0px;
-}
+} */
 
 .k_main{
     height: 1050px;
@@ -8,14 +8,56 @@
     background-color: #0D03C3;
 position: inherit;
 
+animation: fadeIn 5s;
+-webkit-animation: fadeIn 5s;
+-moz-animation: fadeIn 5s;
+-o-animation: fadeIn 5s;
+-ms-animation: fadeIn 5s;
+
 }
+/* @media only screen and (max-width: 600px){
+    .k_main{
+        width: 50%;
+    }
+} */
+@keyframes fadeIn {
+    0% { opacity: 0; }
+    100% { opacity: 1; }
+  }
+  
+  @-moz-keyframes fadeIn {
+    0% { opacity: 0; }
+    100% { opacity: 1; }
+  }
+  
+  @-webkit-keyframes fadeIn {
+    0% { opacity: 0; }
+    100% { opacity: 1; }
+  }
+  
+  @-o-keyframes fadeIn {
+    0% { opacity: 0; }
+    100% { opacity: 1; }
+  }
+  
+  @-ms-keyframes fadeIn {
+    0% { opacity: 0; }
+    100% { opacity: 1; }
+  }
 .k_main>img{
     height: 600px;
     width: 70%;
    border-radius: 20px;
    margin-left: 180px;
+ 
 
 }
+/* @media only screen and (max-width: 600px){
+    .k_main>img{
+        width: 600px;
+    }
+} */
+
 #k_head{
     font-size: 50px;
     font-family: sans-serif;
@@ -35,7 +77,12 @@ position: inherit;
     /* transition: transform 1;
         transform:scale(1.3);
         overflow:hidden; */
-}
+}   
+         
+        
+
+
+
 #k_mission{
     margin-top: 150px;
     text-align: center;
