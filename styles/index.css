@@ -4,6 +4,231 @@
     font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
 }
 
+/* BodyTop */
+.pos_abs
+{
+    position: relative;
+    height: 600px;
+    padding-bottom: 100px;
+}
+
+#body_top_content_grid
+{
+    /* border:1px solid red; */
+    margin: auto;
+    width:80%;
+    display: grid;
+    gap:20px;
+    grid-template-columns: 45% 55%;
+    position: absolute;
+    top:150px;
+    left:100px;
+    color: white;
+}
+
+#base_img_r
+{
+    width:100%;
+    animation-name: base_img_r;
+    animation-duration: 2s;
+    opacity: 0;
+    animation-fill-mode: forwards;
+}
+
+@keyframes base_img_r
+{
+    from {opacity:0;}
+    to{opacity:1;}
+}
+
+#img_1_r
+{
+    position: absolute;
+    width:13%;
+    right:160px;
+    top:-25px;
+    animation-name: img_1_r;
+    animation-duration: 2s;
+    animation-delay: 1s;
+    opacity: 0;
+    animation-fill-mode: forwards;
+}
+
+@keyframes img_1_r
+{
+    from {opacity:0;}
+    to{opacity:1;}
+}
+
+#img_2_r
+{
+    position: absolute;
+    width: 255px;
+    bottom:-40px;
+    right:450px;
+    animation-name: img_2_r;
+    animation-duration: 2s;
+    animation-delay: 2s;
+    opacity: 0;
+    animation-fill-mode: forwards;
+}
+
+@keyframes img_2_r
+{
+    from {opacity:0;}
+    to{opacity:1;}
+}
+
+#img_3_r
+{
+    position: absolute;
+    width: 220px;
+    bottom:-40px;
+    right:80px;
+    animation-name: img_3_r;
+    animation-duration: 2s;
+    animation-delay: 3s;
+    opacity: 0;
+    animation-fill-mode: forwards;
+}
+
+@keyframes img_3_r
+{
+    from {opacity:0;}
+    to{opacity:1;}
+}
+
+.body_top_col>h2
+{
+    font-size: 56px;
+}
+
+.body_top_col>h2+p
+{
+    font-size: 17.6px;
+}
+
+#round_control
+{
+    height:110%;
+    overflow: hidden;
+}
+
+.blue_round
+{
+    background-color: #193fe4;
+    border-bottom-right-radius: 200%;
+    width:130%;
+    height:100%;
+    overflow: hidden;
+   
+}
+
+.body_top_button
+{
+    padding: 16px 30px 15px;
+    border-radius: 30px;
+    font-size: 12px;
+    font-weight: bold;
+    color: white;
+    border:1px solid white;
+    margin-left: 30px;
+    background-color: #193fe4;
+
+}
+
+.bg_green
+{
+    background-color: #1bdbb6;
+    border: 0px;
+    margin-left: 0px;
+}
+
+.two_button_flex
+{
+    padding-top: 30px;
+}
+
+
+/* Infinite carousel */
+
+#carousel_heading
+{
+    text-align: center;
+}
+.carousel_container
+{
+    margin: auto;
+    position: relative;
+    width: 80%;
+    padding-top: 30px;
+    padding-bottom: 70px;
+    display: grid;
+    place-items: center;
+    overflow: hidden;
+    border-bottom: 1px solid #eff2f8;
+}
+
+.slider_track
+{
+    display: flex;
+    width: calc(150px*16);
+    height:15px;
+    animation:scroll 40s linear infinite;
+}
+
+@keyframes scroll
+{
+    0% {
+        transform: translateX(0);
+    }
+    100%{
+        transform: translateX(calc(-150px * 8));
+    }
+}
+
+.slide
+{
+    /* border:1px solid red; */
+    width: 250px;
+    display:flex;
+    align-items:center;
+    padding:15px;
+}
+.slide>img
+{
+    /* width:100%; */
+    height:32px;
+}
+
+/* gradient */
+
+.carousel_container::before,
+.carousel_container::after
+{
+    background: linear-gradient(to right, rgba(255,255,255,1) 0%,rgba(255,255,255,0) 100%);
+    content: '';
+    height:100%;
+    position:absolute;
+    width: 15%;
+    z-index: 2;
+}
+
+.carousel_container::before
+{
+    left:0;
+    top:0;
+}
+
+.carousel_container::after
+{
+    right:0;
+    top:0;
+    transform: rotateZ(180deg);
+}
+
+
+
 /* Mid Body Part 1 */
 
 #midBodyPart1
@@ -11,6 +236,7 @@
     /* border:1px solid red; */
     margin: auto;
     width: 80%;
+    margin-top: 70px;
 }
 
 #midBodyPart1>div:first-child
@@ -139,6 +365,291 @@
     margin-right: 4px;
 }
 
+/* midBodypart2 */
+
+#mid_body_2
+{
+    height: 748px;
+    background-image: url(https://www.bettercloud.com/wp-content/uploads/2021/07/blue-lines-desktop@3x-2048x1295.png);
+    background-repeat: no-repeat;
+    background-size:1240px 784px ;
+    background-position: 150px;
+    position: relative;
+    display: grid;
+    align-items: center;
+}
+
+#mid_body_2_content
+{
+    /* border:1px solid red; */
+    margin: auto;
+    width: 530px;
+    text-align: center;
+}
+
+#mid_body_2_content>p:first-child
+{
+    font-size: 14px;
+    color: #36b37e;
+    font-weight: bold;
+    letter-spacing: 1.5px;
+}
+
+#mid_body_2_content h2
+{
+    font-size: 40px;
+    padding-bottom: 15px;
+}
+
+#mid_body_2_content h2+p
+{
+    font-size: 18px;
+    color:#5d7689;
+    padding-bottom: 30px;
+}
+
+#mid_body_2_button
+{
+    font-size: 12px;
+    padding: 16px 30px 15px;
+    border-radius: 25px;
+    color: white;
+    background-color: #2272FF;
+    font-weight: bold;
+    border:0px;
+    letter-spacing: 1px;
+}
+
+#white_circle_slack
+{
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+    position: absolute;
+    top:190px;
+    right:295px;
+    border-radius: 50%;
+    padding: 8px;
+    aspect-ratio: 1;
+    background-color: white;
+
+}
+
+#slack_img
+{
+    width:56px;
+    animation-name: slack;
+    animation-duration: 2s;
+    animation-delay: 1s;
+    opacity: 0;
+    animation-fill-mode: forwards;
+}
+
+@keyframes slack
+{
+    from {opacity:0;}
+    to{opacity:1;}
+}
+
+#white_circle_zoom
+{
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+    position: absolute;
+    top:280px;
+    right:180px;
+    border-radius: 50%;
+    padding: 8px;
+    aspect-ratio: 1;
+    background-color: white;
+
+}
+
+#zoom_img
+{
+    width:56px;
+    animation-name: zoom;
+    animation-duration: 2s;
+    animation-delay: 1.8s;
+    opacity: 0;
+    animation-fill-mode: forwards;
+}
+
+@keyframes zoom
+{
+    from {opacity:0;}
+    to{opacity:1;}
+}
+
+#white_circle_dropbox
+{
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+    position: absolute;
+    top:430px;
+    right:340px;
+    border-radius: 50%;
+    padding: 8px;
+    aspect-ratio: 1;
+    background-color: white;
+
+}
+
+#dropbox_img
+{
+    width:56px;
+    animation-name: dropbox;
+    animation-duration: 2s;
+    animation-delay: 2.7s;
+    opacity: 0;
+    animation-fill-mode: forwards;
+}
+
+@keyframes dropbox
+{
+    from {opacity:0;}
+    to{opacity:1;}
+}
+
+#white_circle_salesforce
+{
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+    position: absolute;
+    top:510px;
+    right:230px;
+    border-radius: 50%;
+    padding: 8px;
+    aspect-ratio: 1;
+    background-color: white;
+
+}
+
+#salesforce_img
+{
+    width:56px;
+    animation-name: salesforce;
+    animation-duration: 2s;
+    animation-delay: 3.4s;
+    opacity: 0;
+    animation-fill-mode: forwards;
+}
+
+@keyframes salesforce
+{
+    from {opacity:0;}
+    to{opacity:1;}
+}
+
+#white_circle_zendesk
+{
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+    position: absolute;
+    top:150px;
+    left:250px;
+    border-radius: 50%;
+    padding: 8px;
+    aspect-ratio: 1;
+    background-color: white;
+
+}
+
+#zendesk_img
+{
+    width:66px;
+    animation-name: zendesk;
+    animation-duration: 2s;
+    animation-delay: 3.7s;
+    opacity: 0;
+    animation-fill-mode: forwards;
+}
+
+@keyframes zendesk
+{
+    from {opacity:0;}
+    to{opacity:1;}
+}
+
+#white_circle_azure
+{
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+    position: absolute;
+    top:300px;
+    left:341px;
+    border-radius: 50%;
+    padding: 8px;
+    aspect-ratio: 1;
+    background-color: white;
+
+}
+
+#azure_img
+{
+    width:56px;
+    animation-name: azure;
+    animation-duration: 2s;
+    animation-delay: 2.3s;
+    opacity: 0;
+    animation-fill-mode: forwards;
+}
+
+@keyframes azure
+{
+    from {opacity:0;}
+    to{opacity:1;}
+}
+
+#white_circle_atlassian
+{
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+    position: absolute;
+    top:430px;
+    left:215px;
+    border-radius: 50%;
+    padding: 8px;
+    aspect-ratio: 1;
+    background-color: white;
+
+}
+
+#atlassian_img
+{
+    width:66px;
+    animation-name: atlassian;
+    animation-duration: 2s;
+    animation-delay: 3s;
+    opacity: 0;
+    animation-fill-mode: forwards;
+}
+
+@keyframes atlassian
+{
+    from {opacity:0;}
+    to{opacity:1;}
+}
+
+#white_circle_google
+{
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+    position: absolute;
+    top:500px;
+    left:360px;
+    border-radius: 50%;
+    padding: 8px;
+    aspect-ratio: 1;
+    background-color: white;
+
+}
+
+#google_img
+{
+    width:56px;
+    animation-name: google;
+    animation-duration: 2s;
+    opacity: 0;
+    animation-fill-mode: forwards;
+}
+
+@keyframes google
+{
+    from {opacity:0;}
+    to{opacity:1;}
+}
 
 /* News Feed */
 
@@ -226,6 +737,7 @@
     width:73%;
     padding: 50px 30px; 
     margin: auto;
+    margin-top: 70px;
     margin-bottom:100px;
     border-radius: 30px;
     background-color: #eff7ff;
