@@ -250,4 +250,115 @@ transform:matrix(1.1);
     .div2>h3:hover{
         color: #0e5faf;
     }
-    /*    .......    chandu.... */
+    /*    .......    VIEW MORE BUTTON.... */
+
+
+    #view_more{
+        width: 150px;
+       
+        margin:-50px auto 50px;
+        text-align: center;
+        display: block;
+        padding: 15px 30px;
+       font-weight: 600;
+        border-radius: 25px;
+        color: #2292FF;
+        background-color: #D7EAFD;
+        font-size: 12px;
+    }
+    #view_more:hover{
+        background-color: #c9d8ee;
+        cursor: pointer;
+    }
+
+    
+    .subscribe_main{
+        width: 100%;
+       margin: auto;
+       margin-bottom: 40px;
+    }
+    #subscribe{
+        width: 80%;
+        border: 1px solid;
+        display: flex;
+        margin: auto;
+        margin-top: 60px;
+        justify-content: space-between;
+        align-items: flex-start;
+        background-color: #1634DE;
+        padding: 50px;
+        border-radius: 30px;
+    }
+.heading-text{
+    color: white;
+}
+.h2_main{
+    width: 50%;
+    height: 100%;
+    padding: 100px;
+   
+}
+.sub_a>a{
+    background-color: #1BDBB6;
+    color: white;
+    font-weight: 600;
+    font-size: 18px;
+    /* font-weight: bolder; */
+    padding: 12px 30px;
+    border-radius: 20px;
+   
+    border: wheat;
+
+}
+.sub_a>a:hover{
+    border: 1px solid white;
+    cursor: pointer;
+}
+
+/* ......fooder part.... */
+
+
+#fooder_part{
+    width: 90%;
+    margin: 60px auto;
+
+}
+#fooder_part>.inside_fooder{
+    padding: 70px;
+    border-radius: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    background-color: #EFF7FF;
+    margin: auto;
+}
+.right_div>img{
+    width: 100%;
+    display: block;
+    overflow: hidden;
+
+}
+.fl-heading-text{
+    color: #183B56;
+   
+    
+}
+.peragrape{
+    color: #5D7698;
+   
+}
+.left_div{
+    display: flex;
+    flex-direction: column;
+    justify-content:flex-start;
+    align-items: flex-start;
+   margin: auto;
+    padding: 10px;
+    gap:20px
+}
+.button-text{
+    color: #2271FF;
+    border: none;
+    font-weight: 600;
+    border-bottom: none;
+}
