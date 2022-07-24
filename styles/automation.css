@@ -1,0 +1,184 @@
+
+        *{
+            font-family: "Proxima Nova", proxima-nova, sans-serif;
+            color: #183b56;
+        }
+        .abhi_container{
+            width: 55%;
+            margin: auto;
+            display: flex;
+            justify-content: space-around;
+            margin-top: 100px;
+        }
+        #containerLeft{
+            width: 33%;
+        }
+        #containerLeft img{
+            width: 15%;
+        }
+        #containerLeft h1{
+            font-size: 56px;
+            font-weight: 700;
+        }
+        #containerLeft p{
+            color: #5d7689;
+            font-size: 18px;
+            font-weight: 500;
+            line-height: 30px;
+        }
+        #containerRight img{
+            width:665px;
+            height:383px;
+        }
+        .content{
+            width: 33%;
+        }
+        .content h1{
+            line-height: 50px;
+            font-size: 38px;
+            font-weight: 700;
+            color: #183b56;
+        }
+        .content p{
+            font-size: 20px;
+            font-weight: 500;
+            line-height: 35px;
+            color: #183b56;
+        }
+        .imagecon{
+            width: 48%;
+        }
+        .imagecon img{
+            width: 119%;
+        }
+        #comments{
+            display: flex;
+            justify-content: space-between;
+        }
+        #comments>div:first-child img{
+            width: 30px;
+        }
+        #comments>div:last-child{
+            width: 90%;
+        }
+        #comments>div:last-child p{
+            font-weight: 600;
+            font-size: 16px;
+            line-height: 26px;
+            color:rgba(24, 59, 86, 0.8);
+        }
+        #comments>div:last-child h5{
+            font-weight: 700;
+            font-size: 11px;
+            line-height: 17px;
+            color: rgba(0, 0, 0, 0.7);
+            margin: 0px;
+        }
+        #comments>div:last-child h6{
+            font-weight: 400;
+            font-size: 11px;
+            line-height: 17px;
+            color: rgba(0, 0, 0, 0.7);
+            margin: 0px 0px 10px 0px;
+        }
+        #comments>div:last-child img{
+            width: 80px;
+            height: 26px;
+        }
+
+#benefits>div{
+    display: flex;
+    align-items: center;
+}
+#benefits>div>img{
+    width: 7%;
+    height: 7%;
+    margin-right: 10px;
+}
+#benefits>div>p{
+    font-size: 16px;
+    font-weight: 500;
+    color: #183b56;
+    line-height: 20px;
+}
+.abhi_container #request{
+    display: flex;
+    width: 70%;
+    justify-content: space-between;
+    align-items: center;
+    padding: 2% 4%;
+    color: #ffffff;
+    border-radius: 25px;
+    background-image: linear-gradient(90deg, #4403D0 0%, #8233e2 83%);
+}
+.abhi_container #request div{
+    width: 70%;
+}
+.abhi_container #request h1{
+    color: #ffffff;
+    font-size: 30px;
+    font-weight: 700;
+    
+}
+.abhi_container #request button{
+    width: 170px;
+    padding: 2%;
+    font-size: 12px;
+    font-weight: 700;
+    border-top-left-radius: 23px;
+    border-top-right-radius: 23px;
+    border-bottom-left-radius: 23px;
+    border-bottom-right-radius: 23px;
+    border-color: rgba(255,0,0,0);
+    box-shadow: 0 0 20px 0 rgba(255,255,255,.8);
+    /* background-color: aquamarine; */
+    color: black;
+}
+#last_container{
+    margin-top: 100px;
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 100px;
+}
+#last_container h1{
+    text-align: center;
+    line-height: 48px;
+    font-size: 40px;
+    font-weight: 700;
+}
+#last_container #lastbuttons{
+    display: flex;
+    gap: 50px;
+    justify-content: center;
+    margin-top: 20px;
+}
+#last_container #lastbuttons>div img{
+    width: 55px;
+    height: 55px;
+    margin:0px 20px;
+}
+#last_container #lastbuttons>div{
+    display: flex;
+    justify-content: center;
+    height: 50px;
+    border-top-left-radius: 16px;
+    border-top-right-radius: 16px;
+    border-bottom-left-radius: 16px;
+    border-bottom-right-radius: 16px;
+}
+#last_container #lastbuttons>div div{
+    display: flex;
+    flex-direction: column;
+    line-height: 20px;
+}
+#last_container #lastbuttons>div div h2,p{
+    margin: 0px;
+    text-align: inherit;
+}
+#last_container #lastbuttons>div{
+    background-color: #e9f1ff;
+    align-items: center;
+    width: 300px;
+    height: 160px;
+    justify-content: center;
+}
