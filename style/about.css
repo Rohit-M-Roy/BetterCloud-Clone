@@ -2,6 +2,12 @@
     border: 0px;
 } */
 
+*
+{
+    margin: 0px;
+    padding:0px;
+}
+
 .k_main{
     height: 1050px;
     width: 100%;
