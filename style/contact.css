@@ -54,11 +54,11 @@
             width: 500px; */
             border-bottom-left-radius: 20px;
             border-top-left-radius: 20px;
-            margin-top: 200px;
+            margin-top: 80px;
         
         }
         #k_text{
-            margin-top: 170px;
+            margin-top: 50px;
             margin-left: 50px;
         
         }
@@ -204,13 +204,104 @@
           overflow-y: hidden;
           white-space: nowrap;
          -webkit-overflow-scrolling: touch;
-         &::-webkit-scrollbar {
+         /* &::-webkit-scrollbar {
             display: none;
-          }
+          } */
         }
          .card {
            display: inline-block;
           }
+
+          
+#k_form_cont{
+  
+  height: 500px;
+  width: 80%;
+  /* border: 1px solid red; */
+  border-radius:20px;
+  gap: 40px;
+  display: flex;
+  padding-top: 72px;
+    padding-right: 72px;
+    padding-bottom: 0px;
+    padding-left: 72px;
+    background-color: #EFF7FF;
+    margin: auto;
+    margin-top: 100px;
+}
+#k_form_right{
+  display: flex;
+  width: 55%;
+}
+#k_form_left{
+  width: 45%;
+}
+
+
+#k_form_left>h1{
+  color: #183B56;
+  font-size: 40px;
+ 
+  font-family:  "Proxima Nova", "proxima-nova",sans-serif;
+}
+#k_form_left>p{
+  color: #5D7689;
+  font-family:  "Proxima Nova", "proxima-nova",sans-serif;
+}
+
+
+
+.k_desc{
+  color: #183B56;
+  font-family:  "Proxima Nova", "proxima-nova",sans-serif;
+  font-size: 14px;
+  font-weight: bold;
+
+}
+.k_input{
+  border: 1px solid #7fadff!important;
+    border-radius: 22.5px!important;
+    background-color: #FFF;
+    height: 45px;
+    color: #5A7184;
+    font-family: "Proxima Nova"!important;
+    font-size: 16px;
+    letter-spacing: 0;
+    line-height: 28px;
+    padding-left: 25px;
+    padding-right: 25px;
+    box-shadow: 0 0 7px 0 rgb(34 114 255 / 10%);
+}
+#k_check{
+  margin-top: 30px;
+  color: #5A7184;
+  font-family:  "Proxima Nova", "proxima-nova",sans-serif;
+}
+#k_submit{
+  background: #2272ff!important;
+  font-size: 15px!important;
+  border-radius: 27px!important;
+  border-color: transparent!important;
+  color: #fff!important;
+  box-shadow: 0 0 5px rgba(34,113,255,.5)!important;
+  line-height: 15px!important;
+  padding: 15px 7px!important;
+  text-transform: uppercase!important;
+  font-family: "Proxima Nova","proxima-nova",sans-serif!important;
+  font-weight: 700!important;
+  letter-spacing: 1px!important;
+  width: 100%!important;
+  max-width: 151px!important;
+  display: block!important;
+  opacity: 1!important;
+  transition: ease-in-out 0.3s;
+  margin-top: 20px;
+  cursor: pointer;
+}
+
+
+
+
         
         
         
