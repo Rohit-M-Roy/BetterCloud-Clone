@@ -13,6 +13,9 @@
         #containerLeft{
             width: 33%;
         }
+        #containerLeft img{
+            width: 15%;
+        }
         #containerLeft h1{
             font-size: 56px;
             font-weight: 700;
@@ -23,17 +26,16 @@
             font-weight: 500;
             line-height: 30px;
         }
-        #containerRight #Video{
+        #containerRight img{
             width:665px;
             height:383px;
-            border-radius: 10px;
         }
         .content{
             width: 33%;
         }
         .content h1{
             line-height: 50px;
-            font-size: 40px;
+            font-size: 38px;
             font-weight: 700;
             color: #183b56;
         }
@@ -101,7 +103,7 @@
 }
 .abhi_container #request{
     display: flex;
-    width: inherit;
+    width: 70%;
     justify-content: space-between;
     align-items: center;
     padding: 2% 4%;
@@ -109,8 +111,14 @@
     border-radius: 25px;
     background-image: linear-gradient(90deg, #4403D0 0%, #8233e2 83%);
 }
+.abhi_container #request div{
+    width: 70%;
+}
 .abhi_container #request h1{
     color: #ffffff;
+    font-size: 30px;
+    font-weight: 700;
+    
 }
 .abhi_container #request button{
     width: 170px;
@@ -123,6 +131,8 @@
     border-bottom-right-radius: 23px;
     border-color: rgba(255,0,0,0);
     box-shadow: 0 0 20px 0 rgba(255,255,255,.8);
+    /* background-color: aquamarine; */
+    color: black;
 }
 #last_container{
     margin-top: 100px;
@@ -145,9 +155,9 @@
 #last_container #lastbuttons>div img{
     width: 55px;
     height: 55px;
-    margin-right: 20px;
+    margin:0px 20px;
 }
-#last_container #lastbuttons div{
+#last_container #lastbuttons>div{
     display: flex;
     justify-content: center;
     height: 50px;
@@ -159,17 +169,16 @@
 #last_container #lastbuttons>div div{
     display: flex;
     flex-direction: column;
-    line-height: 0px;
+    line-height: 20px;
 }
-#last_container #lastbuttons div:first-child{
-    background-color: rgba(34,114,255,0.1);
-    align-items: center;
-    width: 250px;
-    height: 110px;
+#last_container #lastbuttons>div div h2,p{
+    margin: 0px;
+    text-align: inherit;
 }
-#last_container #lastbuttons div+div{
-    background-color: rgba(255,0,170,0.1);
+#last_container #lastbuttons>div{
+    background-color: #e9f1ff;
     align-items: center;
-    width: 250px;
-    height: 110px;
+    width: 300px;
+    height: 160px;
+    justify-content: center;
 }

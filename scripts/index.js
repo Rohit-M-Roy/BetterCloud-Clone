@@ -1,3 +1,8 @@
+import navbar from '../components/navbar.js'
+
+document.querySelector('nav').innerHTML = navbar();
+
+
 //  Mid Body Part 1
 
 let midBodyPart1ButtonDetails = [
