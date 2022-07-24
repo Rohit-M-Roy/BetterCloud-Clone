@@ -3,7 +3,7 @@ nav
 {
     position:fixed;
     margin: auto;
-    width:97%;
+    width:98%;
     top:0;
     border:1px solid transparent;
     height:92px;
@@ -13,6 +13,8 @@ nav
     padding-right: 20px;
     align-items: center;
     background-color: #2272ff;
+    z-index: 3;
+    font-family: sans-serif;
 }
 
 nav:hover
@@ -79,10 +81,10 @@ body
 
 /* megaMENU */
 
-#menu_wrapper
+/* #menu_wrapper
 {
     border: 1px solid;
-}
+} */
 
 ul
 {
@@ -106,26 +108,136 @@ ul
 
 .menu
 {
-    border: 1px solid green;
+    /* border: 1px solid green; */
     position: absolute;
     width: 82.7%;
     left: 0;
     padding:40px 130px;
-    display: flex;
+    display: grid;
     justify-content: space-between;
     background-color: white;
+    /* display: none; */
 }
 
-.col
+#products_menu
 {
-    border:1px solid green;
+    grid-template-columns: 30% 65%;
 }
 
-.bottom_highlight
+.heading_flex_wrap
+{
+    display:flex;
+    align-items: center;
+    gap:15px;
+    margin-top: 20px;
+    font-size: 12px;
+    letter-spacing: 1px;
+}
+
+.heading_flex_wrap>img
+{
+    height: 35px;
+}
+
+.heading_flex_wrap+p
+{
+    margin-left: 45px;
+    font-size: 12px;
+    color: grey;
+    font-weight: 500;
+}
+
+.menu_wrap_2col_flex
+{
+    display: flex;
+    gap:20px;
+    justify-content: space-between;
+}
+
+
+.blue_learn_more_link
+{
+    background-color: white;
+    border:0px;
+    color:#2272ff;
+    font-size: 12px;
+    font-weight: bold;
+    letter-spacing: 1px;
+    margin-top: 20px;
+}
+
+.menu
+{
+    visibility: hidden;
+}
+
+.bottom_highlight:hover 
 {
     border-bottom: 4px solid #2272ff;
 }
 
+.pop_up_list:hover .menu
+{
+    visibility: visible;
+}
+
+#solution_menu
+{
+    grid-template-columns: 65% 25%;
+}
+
+#customer_menu
+{
+    grid-template-columns: 50% 35%;   
+
+}
+
+#resource_menu
+{
+    grid-template-columns: 60% 30%;   
+}
+
+#company_menu
+{
+    grid-template-columns: 60% 35%;   
+}
+
+.menu_wrap_2col_grid
+{
+    display: grid;
+    grid-template-columns: 30% 30% 30%;
+}
+
+.menu_blue_box
+{
+    /* height: 100px; */
+    padding-top:30px;
+    border-radius: 15px;
+    padding-left: 10px;
+    background-color: #2272ff;
+    color: white;
+}
+
+.free_report_link
+{
+    background-color: #02f2ff;
+    color: white;
+}
+
+.resource_box
+{
+    border:1px solid;
+    padding: 30px 70px 30px 20px;
+    border-radius: 15px;
+    color: white;
+    background-color: #02f2ff;
+}
+
+.menu_blue_box>h4
+{
+    padding-top: 5px;
+    padding-bottom:25px;
+}
 
 #navbar_logo
 {
