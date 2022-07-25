@@ -1,4 +1,6 @@
+import navbar from '../components/navbar.js'
 
+document.querySelector('nav').innerHTML = navbar();
    
 
     let articleData=[
@@ -318,7 +320,7 @@
     let view_more=document.getElementById("view_more");
     
 
-    }
+    
     displayArticles(articleData)
         view_more.onclick=()=>{
         displayArticles(articleData)

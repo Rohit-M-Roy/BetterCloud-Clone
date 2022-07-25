@@ -5,9 +5,12 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="sign_up.css">
+    <link rel="stylesheet" href="./styles/navbar.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
     <title>signUp page</title>
 </head>
 <body>
+    <nav></nav>
     <div id="main_div">
         <div class="head_div">
             <div class="left_div">
@@ -156,8 +159,12 @@
 </div>
 </body>
 </html>
-<script src="https://kit.fontawesome.com/b004217362.js" crossorigin="anonymous"></script>
-<script>
+<!-- <script src="https://kit.fontawesome.com/b004217362.js" crossorigin="anonymous"></script> -->
+<script type="module">
+
+import navbar from '../components/navbar.js'
+
+document.querySelector('nav').innerHTML = navbar();
 
 let goToSignUp=()=>{
     event.preventDefault()
@@ -169,6 +176,60 @@ let goToSignUp=()=>{
     },2000)
 }
 
+// linking
+document.querySelector('#manage_r').addEventListener('click',manage_redirect);
+document.querySelector('#discover_r').addEventListener('click',discover_redirect);
+document.querySelector('#automation_r').addEventListener('click',automation_redirect);
+document.querySelector('#google_r').addEventListener('click',google_redirect);
+document.querySelector('#about_r').addEventListener('click',about_redirect);
+document.querySelector('#index_r').addEventListener('click',index_redirect);
+document.querySelector('.contact_r').addEventListener('click',contact_redirect);
+document.querySelector('#monitor_r').addEventListener('click',monitor_redirect);
+document.querySelector('#contact_r').addEventListener('click',contact_redirect);
+document.querySelector('#microsoft_r').addEventListener('click',microsoft_redirect);
+
+function microsoft_redirect()
+{
+    window.location.href ='microsoft.html';
+}
+
+function monitor_redirect()
+{
+    window.location.href ='monitor.html';
+}
+
+function contact_redirect()
+{
+    window.location.href ='contact.html';
+}
+
+function index_redirect()
+{
+    window.location.href ='index.html';
+}
+
+function discover_redirect()
+{
+    window.location.href = 'discover.html';
+}
+
+function manage_redirect()
+{
+    window.location.href='manage.html';
+}
+
+function automation_redirect()
+{
+    window.location.href = 'automation.html';
+}
+function google_redirect()
+{
+    window.location.href = 'google.html';
+}
+function about_redirect()
+{
+    window.location.href = 'about.html';
+}
 
 
 //     const box = document.querySelector(".crauser_div");
