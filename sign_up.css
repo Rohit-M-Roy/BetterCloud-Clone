@@ -1,0 +1,258 @@
+*{
+    margin:0px;
+    padding:0px;
+    box-sizing: border-box;
+    outline:none;
+    text-decoration: none;
+  }
+  body{
+    font-family: 'Barlow', sans-serif;
+
+}
+  #main_div{
+    margin:auto;
+    /* margin-left:-180px; */
+     /* width:1000%; */
+    /* height: 100px; */
+    border-radius:0% 0% 0% 40% ;
+    background: linear-gradient(0deg, #2271ff 0%, #0024d8 100%);
+    position:relative;
+    display:block;
+    padding: 60px;
+  }
+
+ 
+  /* #text{
+    margin:auto;
+    margin-left:-1800px;
+    height: 50px;
+    border-radius:0% 0% 0% 170% ;
+    background: linear-gradient(0deg, #2271ff 0%, #0024d8 100%);
+  } */
+  .head_div{
+    width: 100%;
+    display: flex;
+    margin: auto;
+    /* padding-top: 30px; */
+    justify-content: center;    
+    align-items: center;
+    /* gap:30px; */
+  }
+ .left_div>img{
+    width: 30%;
+    display: flex;
+    justify-content: flex-start;
+
+ }
+ .left_div{
+  width: 60%;
+  display: flex;
+  flex-direction: column;
+  justify-content:flex-start;
+  align-items:flex-start;
+  gap:20px;
+  color: #EFF7FF;
+  /* border: 1px solid; */
+ }
+ .h1{
+  font-weight: 600;
+  font-size: 45px;
+  color: #EFF7FF;
+ }
+.right_div{
+    width:35%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    background-color:#EFF7FF;
+    padding: 30px;
+    border-radius: 20px;
+    gap:20px;
+    color: #183B56;
+ }
+ .right_div>form{
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+    gap: 10px;
+    width: 100%;
+ }
+ .right_div>form>input{
+  padding: 10px;
+  border-radius: 20px;
+  border: none;
+
+ }
+ .right_div>form>label{
+  font-size: 12px;
+  color: #183B56;
+  font-weight: 600;
+ }
+ .right_div>form>#checkbox{
+  display: inline;
+ 
+ }
+ #checkbox+span{
+  margin-left:10px ;
+ }
+
+ .right_div>form>button{
+  padding: 15px 20px;
+  border-radius: 20px;
+  width: 150px;
+  background-color: #143E8B;
+  color: #EFF7FF;
+  border: none;
+  margin: 30px 0px 0px;
+ }
+ .right_div>form>button:hover{
+  cursor: pointer;
+
+ }
+ /* .........  medel part ......   */
+ .medel>div{
+  margin:10px auto;
+  text-align: center;
+  width: 57%;
+
+ }
+ .medel>div>h2>span{
+  color: #183B56;
+  font-weight: 600;
+  font-size: 45px;
+
+ }
+ .medel>div>p{
+  color: gray;
+
+ }
+ .medel{
+  margin: 30px;
+ }
+ .fooder_div{
+  display: flex;
+  width: 60%;
+  margin:30px auto;
+  justify-content: center;
+ 
+  gap:15px;
+  
+ }
+ #left_fooder_div{
+  width:35%;
+  color: #EFF7FF;
+  /* display: flex;
+  flex-direction: column;
+  justify-content:flex-end;
+  align-items:flex-start; */
+ }
+ .fooder_right_img{
+  width: 60%;
+/* padding: 20px; */
+ }
+ .fooder_right_img>img{
+  width: 100%;
+  color: #183B56;
+  border: 2px solid  ;
+  border-radius: 20px;
+ }
+ /* .......crauser........  */
+
+
+ .crauser{
+  width: 80%;
+  margin: auto;
+  position:relative;
+  /* top: 100PX; */
+  /* display: flex;
+  justify-content: center;
+  /* align-items: center; */
+  padding: 20px; 
+  /* border: 1px solid ; */
+ }
+ /* .crauser_div{
+  border:1px solid;
+
+} */
+ .right-button{
+   position:absolute;
+  top:25px;
+background-color: #0024d8;
+border-radius:  100%;
+width: 40px;
+height: 40px;
+right: 30px;
+border: none;
+color:#EFF7FF ;
+font-weight:bolder;
+font-size: 30px;
+}
+.left-button{
+  position: absolute;
+  top:25px;
+ left: 30px;
+background-color: #0024d8;
+border-radius:  100%;
+width: 40px;
+height: 40px;
+right: 10px;
+border: none;
+color:#EFF7FF ;
+font-weight:bolder;
+font-size: 30px;
+}
+
+.crauser>.right_button{
+  right: 100px;
+
+}
+.crauser_div{
+  margin: auto; 
+  width: 70%;
+  /* border: 1px solid red; */
+  /* padding: 10px; */
+  color: #183B56;
+  font-weight: 600;
+  text-align: center;
+  display:flex ;
+
+}
+.hipen_img{
+  /* margin: auto; */
+ /* border: 1px solid black; */
+ display: flex;
+ justify-content: center;
+ align-items: center;
+width: 100%;
+}
+.hipen_img>img{
+  width: 30px;
+}
+#main_crauser{
+  width: 100%;
+
+  top: 500 px;
+ /* border: 1px solid red; */
+  background-color: #EFF7FF;
+  display: flex;
+  flex-direction:column;
+  justify-content: center;
+  align-items: center;
+  padding: 30px;
+  padding-bottom: 100px;
+}
+.cr_head_div{
+  color: #183B56;
+  text-align: center;
+  font-size: 30px;
+  padding: 30px;
+}
+.crauser_div>.p1{
+  font-size: 30px;
+  font-weight: 400;
+  width: 100%;
+}
+ul{
+  display: flex;
+  width: 100%;
+}

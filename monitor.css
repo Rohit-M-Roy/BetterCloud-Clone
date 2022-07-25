@@ -6,7 +6,10 @@ body{
     padding: 0px;
     margin: 0px;
     box-sizing: border-box;
-    
+   
+}
+a{
+    text-decoration: none;
 }
 /*.......... header part .............. */
 #main_head{
@@ -40,7 +43,7 @@ body{
    margin-left: 15px;
    font-weight: 500;
 }
-.main_button>button{
+.main_button>a{
     background-color: #2271FF;
     color: white;
     font-weight: 600;
@@ -51,7 +54,7 @@ body{
     margin-left: 15px;
     border: wheat;
 }
-.main_button>button:hover{
+.main_button>a:hover{
    
     cursor: pointer;
 
@@ -279,13 +282,13 @@ transform:matrix(1.1);
     }
     #subscribe{
         width: 80%;
-        border: 1px solid;
+        /* border: 1px solid; */
         display: flex;
         margin: auto;
         margin-top: 60px;
         justify-content: space-between;
         align-items: flex-start;
-        background-color: #1634DE;
+        background: linear-gradient(0deg, #2271ff 1%, #0024d8 100%);
         padding: 50px;
         border-radius: 30px;
     }
