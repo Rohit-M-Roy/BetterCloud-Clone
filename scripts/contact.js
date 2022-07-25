@@ -21,6 +21,12 @@ document.querySelector('#index_r').addEventListener('click',index_redirect);
 document.querySelector('.contact_r').addEventListener('click',contact_redirect);
 document.querySelector('#monitor_r').addEventListener('click',monitor_redirect);
 document.querySelector('#contact_r').addEventListener('click',contact_redirect);
+document.querySelector('#microsoft_r').addEventListener('click',microsoft_redirect);
+
+function microsoft_redirect()
+{
+    window.location.href ='microsoft workspace/microsoft.html';
+}
 
 
 function monitor_redirect()

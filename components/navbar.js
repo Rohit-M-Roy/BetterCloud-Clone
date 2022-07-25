@@ -160,7 +160,7 @@ let navbar = ()=>
                                 <img src="https://www.bettercloud.com/wp-content/uploads/2021/05/google.png" alt="">
                                 <h4 id="google_r">GOOGLE WORKSPACE</h4>
                             </div>
-                            <div class="heading_flex_wrap">
+                            <div class="heading_flex_wrap" id="microsoft_r">
                                 <img src="https://www.bettercloud.com/wp-content/uploads/2021/05/office365.png" alt="">
                                 <h4>MICROSOFT 365</h4>
                             </div>
