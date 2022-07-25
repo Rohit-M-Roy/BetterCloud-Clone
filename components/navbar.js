@@ -333,8 +333,9 @@ let navbar = ()=>
                     </div>
                     <div>
                         <div class="menu_blue_box">
-                            <h2>HAVE ANY QUESTIONS ?</h2>
+                           <h2>HAVE ANY QUESTIONS ?</h2>
                             <h4>CONTACT US</h4>
+                          
                         </div>
                     </div>
                 </div>
