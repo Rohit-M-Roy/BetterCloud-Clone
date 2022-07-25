@@ -201,4 +201,4 @@ function about_redirect()
 
 import footer from '../components/footer.js';
 
-document.querySelector('footer').innerHTML = footer();
+document.querySelector('#footer_index').innerHTML = footer();
