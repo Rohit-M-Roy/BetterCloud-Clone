@@ -215,7 +215,7 @@ let navbar = ()=>
                         </div>
                     </div>
                     <div>
-                        <div class="menu_blue_box contact_r">
+                    <div class="menu_blue_box contact_r">
                             <h2>HAVE ANY QUESTIONS ?</h2>
                             <h4>CONTACT US</h4>
                         </div>
@@ -332,7 +332,7 @@ let navbar = ()=>
                             
                     </div>
                     <div>
-                        <div class="menu_blue_box contact_r">
+                        <div class="menu_blue_box" id="contact_r">
                             <h2>HAVE ANY QUESTIONS ?</h2>
                             <h4>CONTACT US</h4>
                           

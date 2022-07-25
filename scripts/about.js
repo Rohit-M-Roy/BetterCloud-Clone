@@ -76,6 +76,7 @@ document.querySelector('#about_r').addEventListener('click',about_redirect);
 document.querySelector('#index_r').addEventListener('click',index_redirect);
 document.querySelector('.contact_r').addEventListener('click',contact_redirect);
 document.querySelector('#monitor_r').addEventListener('click',monitor_redirect);
+document.querySelector('#contact_r').addEventListener('click',contact_redirect);
 
 
 function monitor_redirect()
