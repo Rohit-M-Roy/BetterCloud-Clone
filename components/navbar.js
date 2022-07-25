@@ -3,7 +3,7 @@ let navbar = ()=>
     return `<div id="navFirstHalf">
     <div id="navbar_logo">
         <img src="./images/bettercloud-white-logo.png" alt="logo">
-        <img src="./images/bettercloud-logo.png" alt="black_logo">
+        <img id="index_r" src="./images/bettercloud-logo.png" alt="black_logo">
     </div>
     <div id="menu_wrapper">
         <ul>
@@ -18,14 +18,14 @@ let navbar = ()=>
                             <div>
                                 <div class="heading_flex_wrap">
                                     <img src="http://www.bettercloud.com/wp-content/uploads/2021/05/Discover-Icon.png" alt="">
-                                    <h4>DISCOVER</h4>
+                                    <h4 id="discover_r">DISCOVER</h4>
                                 </div>  
                                 <p>Uncover what SaaS apps exists in your environment and learn how they are being used by the employees</p>
                             </div>
                             <div>
                                 <div class="heading_flex_wrap">
                                     <img src="http://www.bettercloud.com/wp-content/uploads/2021/05/Manage-Icon.png" alt="">
-                                    <h4>MANAGE</h4>
+                                    <h4 id="manage_r">MANAGE</h4>
                                 </div>  
                                 <p>Save Time by centralizing the administration of your SaaS apps and automating common IT tasks</p>
                             </div>
@@ -48,7 +48,7 @@ let navbar = ()=>
                                 <div>
                                     <div class="heading_flex_wrap">
                                         <img src="https://www.bettercloud.com/wp-content/uploads/2021/07/automation@2x.svg" alt="">
-                                        <h4>AUTOMATION</h4>
+                                        <h4 id="automation_r">AUTOMATION</h4>
                                     </div>  
                                     <p>Increase overall team efficiency by eliminating manual tasks using automated workflows</p>
                                 </div>
@@ -158,7 +158,7 @@ let navbar = ()=>
                         <div>
                             <div class="heading_flex_wrap">
                                 <img src="https://www.bettercloud.com/wp-content/uploads/2021/05/google.png" alt="">
-                                <h4>GOOGLE WORKSPACE</h4>
+                                <h4 id="google_r">GOOGLE WORKSPACE</h4>
                             </div>
                             <div class="heading_flex_wrap">
                                 <img src="https://www.bettercloud.com/wp-content/uploads/2021/05/office365.png" alt="">
@@ -215,7 +215,7 @@ let navbar = ()=>
                         </div>
                     </div>
                     <div>
-                        <div class="menu_blue_box">
+                        <div class="menu_blue_box contact_r">
                             <h2>HAVE ANY QUESTIONS ?</h2>
                             <h4>CONTACT US</h4>
                         </div>
@@ -233,7 +233,7 @@ let navbar = ()=>
                             <div>
                                 <div class="heading_flex_wrap">
                                     <img src="https://www.bettercloud.com/wp-content/uploads/2022/01/services-01.svg" alt="">
-                                    <h4>THE MONITOR BLOG</h4>
+                                    <h4 id="monitor_r">THE MONITOR BLOG</h4>
                                 </div>
                                 <p>Browse the latest news, prodct tips, and best practices for enterprise IT</p>
                                 <div class="heading_flex_wrap">
@@ -288,7 +288,7 @@ let navbar = ()=>
                             <div>
                                 <div class="heading_flex_wrap">
                                     <img src="https://www.bettercloud.com/wp-content/uploads/2021/07/about-us.svg" alt="">
-                                    <h4>ABOUT US</h4>
+                                    <h4 id="about_r">ABOUT US</h4>
                                 </div> 
                                 <div class="heading_flex_wrap">
                                     <img src="https://www.bettercloud.com/wp-content/uploads/2021/07/leadership.svg" alt="">
@@ -332,8 +332,8 @@ let navbar = ()=>
                             
                     </div>
                     <div>
-                        <div class="menu_blue_box">
-                           <h2>HAVE ANY QUESTIONS ?</h2>
+                        <div class="menu_blue_box contact_r">
+                            <h2>HAVE ANY QUESTIONS ?</h2>
                             <h4>CONTACT US</h4>
                           
                         </div>
